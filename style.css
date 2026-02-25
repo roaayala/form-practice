@@ -86,26 +86,49 @@ body {
 
 .left {
 	background-image:
-		linear-gradient(rgb(0 0 0/ 50%), rgb(0 0 0/ 50%)),
+		linear-gradient(rgb(0 0 0/ 30%), rgb(0 0 0/ 30%)),
 		url('./images/johannes-andersson-UCd78vfC8vU-unsplash.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	height: 100%;
 	width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .title {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	padding: 2rem 0;
+	background-color: rgb(0 0 0/ 30%);
+	margin-top: 15rem;
 }
 
 .title img {
-	width: 6rem;
+	width: 5rem;
 }
 
 .title span {
+	font-weight: 600;
+	font-size: 3rem;
+	color: white;
+}
+
+.image-sources {
+	text-align: center;
+	color: white;
+	justify-self: flex-end;
+	padding: 1rem;
+	font-size: 1.25rem;
+}
+
+.image-sources a {
+	color: white;
 	font-weight: 700;
-	font-size: 4rem;
 }
 
 .right {
