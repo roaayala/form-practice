@@ -81,5 +81,34 @@ body {
 
 .main {
 	height: 100vh;
-	background-color: antiquewhite;
+	display: flex;
+}
+
+.left {
+	background-image:
+		linear-gradient(rgb(0 0 0/ 50%), rgb(0 0 0/ 50%)),
+		url('./images/johannes-andersson-UCd78vfC8vU-unsplash.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	width: 35%;
+}
+
+.title {
+	display: flex;
+}
+
+.title img {
+	width: 6rem;
+}
+
+.title span {
+	font-weight: 700;
+	font-size: 4rem;
+}
+
+.right {
+	background-color: white;
+	width: 65%;
 }
