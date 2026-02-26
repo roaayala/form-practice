@@ -132,6 +132,10 @@ body {
 }
 
 .right {
-	background-color: white;
+	background-color: #f3f3f3;
 	width: 70%;
+}
+
+.separator {
+	background-color: white;
 }
