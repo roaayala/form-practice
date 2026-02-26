@@ -164,19 +164,35 @@ body {
 	padding: 0 4rem;
 }
 
-/* form header */
-header h2 {
-	font-size: 1.5rem;
-}
-
 .form header,
 .form main {
 	background-color: white;
 }
 
+/* form header */
+.form header {
+	padding: 2rem 4rem 1rem 4rem;
+}
+
+header h2 {
+	font-size: 1.5rem;
+}
+
+/* form main */
+.form main {
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+/* form footer */
+
 .form-row {
 	display: flex;
 	flex-direction: column;
+	width: 40%;
 }
 
 .form-row label {
