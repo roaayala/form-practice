@@ -123,7 +123,7 @@ body {
 	color: white;
 	justify-self: flex-end;
 	padding: 1rem;
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 .image-sources a {
@@ -131,6 +131,7 @@ body {
 	font-weight: 700;
 }
 
+/* right */
 .right {
 	background-color: #f3f3f3;
 	width: 70%;
@@ -157,6 +158,15 @@ body {
 	margin-bottom: 2rem;
 }
 
+/* right footer */
+.right footer {
+	padding: 0 4rem;
+}
+
+.right footer p a {
+	font-weight: 700;
+}
+
 /* form */
 .form header,
 .form main,
@@ -180,21 +190,38 @@ header h2 {
 
 /* form main */
 .form main {
-	padding-bottom: 2rem;
+	padding-bottom: 3rem;
 	margin-bottom: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1.5rem;
 }
 
-/* form footer */
-
+/* form row */
 .form-row {
 	display: flex;
 	flex-direction: column;
+	gap: 0.25rem;
 	width: 40%;
 }
 
 .form-row label {
 	text-transform: uppercase;
+}
+
+.form-row input {
+	padding: 0.25rem 0.5rem;
+	font-size: 1.1rem;
+}
+
+/* button */
+
+.button {
+	padding: 0.75rem 2rem;
+	font-weight: 700;
+	font-size: 1.15rem;
+	border: none;
+	background-color: #596d48;
+	color: white;
+	border-radius: 8px;
 }
