@@ -134,8 +134,51 @@ body {
 .right {
 	background-color: #f3f3f3;
 	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
 }
 
-.separator {
+/* right header */
+.right header {
+	padding: 0 4rem;
+}
+
+.main-title,
+.leading {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.main-title {
+	margin-bottom: 1rem;
+}
+.leading {
+	margin-bottom: 2rem;
+}
+
+/* form */
+.form header,
+.form main,
+.form footer {
+	padding: 0 4rem;
+}
+
+/* form header */
+header h2 {
+	font-size: 1.5rem;
+}
+
+.form header,
+.form main {
 	background-color: white;
+}
+
+.form-row {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-row label {
+	text-transform: uppercase;
 }
