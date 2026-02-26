@@ -207,11 +207,18 @@ header h2 {
 
 .form-row label {
 	text-transform: uppercase;
+	font-size: 0.875rem;
 }
 
 .form-row input {
 	padding: 0.25rem 0.5rem;
 	font-size: 1.1rem;
+	border-radius: 4px;
+}
+
+.form-row input[type='password']:invalid {
+	border: none;
+	outline: 2px solid red;
 }
 
 /* button */
